@@ -12,5 +12,5 @@ spec:
       port: 8080
       name: server
   selector:
-    app: orders
+    app: pet-clinic
   type: LoadBalancer
