@@ -9,7 +9,7 @@ metadata:
 spec:
   ports:
     - protocol: "TCP"
-      port: 9000
+      port: 8080
       name: server
   selector:
     app: orders
