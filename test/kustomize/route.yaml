@@ -1,5 +1,7 @@
-kind: Route
 apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: Pet Clinic Route
 spec:
   host: pet-clinic-service-demo.apps.cluster-hcgkt.hcgkt.sandbox352.opentlc.com
   to:
