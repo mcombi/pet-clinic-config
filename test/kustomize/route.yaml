@@ -1,0 +1,11 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+spec:
+  host: pet-clinic-service-demo.apps.cluster-hcgkt.hcgkt.sandbox352.opentlc.com
+  to:
+    kind: Service
+    name: pet-clinic-service
+    weight: 100
+  port:
+    targetPort: server
+  wildcardPolicy: None
