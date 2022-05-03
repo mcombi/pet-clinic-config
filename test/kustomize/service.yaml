@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: orders-service
+  name: pet-clinic-service
   labels:
-    app: orders
+    app: pet-clinic
   annotations:
     cloud.google.com/load-balancer-type: "Internal"
 spec:
